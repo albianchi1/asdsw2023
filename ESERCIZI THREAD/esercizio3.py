@@ -15,15 +15,17 @@ def produzione(name, thread):
     
     #funzione della produzione
     
+    #vedo se il thread di produzione ha superato una certa soglia
     
     
     
     
     
 def consumo(name, thread):
+    
     #funzione del consumo
     
-    
+    #vederese è presente almeno un prodotto da prelevare in magazzino
     
     
     
