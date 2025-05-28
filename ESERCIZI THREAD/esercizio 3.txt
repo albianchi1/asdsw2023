@@ -1,0 +1,16 @@
+esercizio 3
+
+
+Creare un programma che simuli la produzione e il consumo di prodotti in un magazzino. Utilizzare due thread, uno per la produzione e uno per il consumo. Il thread di produzione dovrebbe produrre un prodotto ogni volta che il magazzino scende sotto una certa soglia, mentre il thread di consumo dovrebbe prelevare un prodotto dal magazzino ogni volta che il magazzino contiene almeno un prodotto.
+
+
+1 passo:
+
+ho definito le funzioni del thread di produzione e quello del consumo.
+
+
+2 passo:
+
+implementare un algoritmo per la funzione di produzione, quando si accorge che i prodotti in magazzino hanno superato una certa soglia, ne produce altri
+
+implementare un algoritmo per la funzione di consumo, quando vede almeno un prodotto in magazzino ne preleva uno. 
