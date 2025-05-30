@@ -13,28 +13,48 @@ import os
 
 
 
-def produzione(name, thread1):
+def produzione(thread_prod, soglia):
     
     #vedo se il thread di produzione ha superato una certa soglia
+        
     
     
     
     
     
+def consumo(thread_consumo):
     
-def consumo(name, thread2):
+    #vedere se è presente almeno un prodotto da prelevare in magazzino
     
-    #vederese è presente almeno un prodotto da prelevare in magazzino
-    
+
+
 
     
     
-def magazzino(thread1, thread2):
+def magazzino(prodotti_iniziali):
     
     #funzione del magazzino
-
+    
+    if prodotti_iniziali > 0:
+        
+        count = prodotti_iniziali
+        
+        while count > 0:
+            
+            prelevo_prod= Thread(target=consumo, args(thread_consumo))
+        
+        
 
     
     
 if name == 'main':
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
