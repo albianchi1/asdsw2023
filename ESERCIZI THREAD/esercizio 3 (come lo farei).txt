@@ -1,0 +1,28 @@
+esercizio 3 (come lo farei)
+
+Creare un programma che simuli la produzione e il consumo di prodotti in un magazzino. Utilizzare due thread, uno per la produzione e uno per il consumo. Il thread di produzione dovrebbe produrre un prodotto ogni volta che il magazzino scende sotto una certa soglia, mentre il thread di consumo dovrebbe prelevare un prodotto dal magazzino ogni volta che il magazzino contiene almeno un prodotto.
+
+
+
+
+-comincio ad importare le librerie di threading;
+-passo ad implementare le funzioni di produzione e consumo;
+Funzione della produzione:
+creo un algoritmo per vedere se è stata superata una certa soglia
+uso una logica che dipende dal modo in cui porto il prodotto in magazzino.
+Del tipo assegno a un oggetto il nome di una lista vuota. itero il ciclo; proseguo nel dichiarare un prodotto. 
+
+Funzione del consumo:
+creo un algoritmo per prelevare un prodotto ogni volta che sia presente almeno un prodotto in magazzino.
+creo un oggetto lista per far si che il prodotto in magazzino venga prelevato ogni volta che sia presente almeno un elemento in magazzino. 
+
+- definisco il main;
+metto insieme produzione e consumo per far si che il tutto funzioni
+
+applico una logica dei thread per far si che quando almeno un prodotto si trovi in magazzino venga prelevato senza superare una certa soglia.
+
+
+- comincio ad implementare gli algoritmi che stanno sotto le funzioni di produzione e consumo
+
+-finite le funzioni di produzione e consumo passo ad implementare il main per stampare a video quello che mi serve 
+

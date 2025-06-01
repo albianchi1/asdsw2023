@@ -1,0 +1,19 @@
+ESERCIZIO 4 (come lo farei)
+
+Creare un programma che simuli il gioco del ping pong utilizzando thread. Un thread dovrebbe essere dedicato al giocatore 1, e un altro thread al giocatore 2. Ogni volta che un giocatore colpisce la palla, dovrebbe svegliare il thread dell'altro giocatore per permettergli di colpire la palla a sua volta.
+
+Creo la funzione giocatore
+-PARAMETRI:
+palla
+
+quando il giocatore 1 colpisce la palla si sveglia il giocatore 2
+
+if giocatore1 impatta la palla
+	si sveglia giocatore2
+
+
+
+
+funzione main
+
+faccio far fluire il gioco del ping pong
