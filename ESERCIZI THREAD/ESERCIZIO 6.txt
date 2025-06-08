@@ -1,0 +1,12 @@
+Creare un programma che utilizzi processi per eseguire la ricerca di tutti i file con una certa estensione all'interno di una cartella e delle sue sottocartelle. Ogni processo dovrebbe essere responsabile della ricerca di una porzione della cartella. Alla fine, i risultati parziali dovrebbero essere combinati per ottenere la lista completa dei file con l'estensione cercata.
+
+
+
+creare la funzione dei file
+-PARAMETRI:
+
+file
+
+cartella 
+
+sottocartella
